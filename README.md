@@ -9,11 +9,11 @@ Perform conversion between YOLO annotation format and Pascal VOC format. Code ba
   - ```python3 voc2yolo.py \path\to\folder\containing\images\and\pascal\label\files```
  ### Demo:
  - Convert from YOLO to Pascal:
- - ```python3 yolo2pascal/yolo2voc.py demo/yolo2pascal```
- After this, 2 files `cat.xml` and `dog.xml` should appear in the `demo/yolo2pascal` folder. They are label files in Pascal format. You can use LabelImage to load the directory using Pascal format to check.
+   - ```python3 yolo2pascal/yolo2voc.py demo/yolo2pascal```
+   - After this, 2 files `cat.xml` and `dog.xml` should appear in the `demo/yolo2pascal` folder. They are label files in Pascal format. You can use LabelImage to load the directory using Pascal format to check.
  - Convert from Pascal to Yolo:
- - ```python3 pascal2yolo/voc2yolo.py demo/pascal2yolo```
- After this, 2 files `cat.txt` and `dog.txt` should appear in the `demo/pascal2yolo` folder. They are label files in YOLO format. You can use LabelImage to load the directory using YOLO format to check. 
+   - ```python3 pascal2yolo/voc2yolo.py demo/pascal2yolo```
+   - After this, 2 files `cat.txt` and `dog.txt` should appear in the `demo/pascal2yolo` folder. They are label files in YOLO format. You can use LabelImage to load the directory using YOLO format to check. 
  - Example of class.txt file. They are just labels sorted in an alphabetical order:
     - cat
     - dog
