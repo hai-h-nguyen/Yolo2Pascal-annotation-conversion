@@ -1,0 +1,26 @@
+<annotation>
+	<folder>pascal</folder>
+	<filename>dog.jpg</filename>
+	<path>/home/hainh22/Github/Yolo2Pascal-annotation-conversion/demo/images/pascal/dog.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1999</width>
+		<height>1499</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dog</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>769</xmin>
+			<ymin>350</ymin>
+			<xmax>1567</xmax>
+			<ymax>1248</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>pascal</folder>
+	<filename>cat.jpg</filename>
+	<path>/home/hainh22/Github/Yolo2Pascal-annotation-conversion/demo/images/pascal/cat.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>450</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>cat</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>474</xmin>
+			<ymin>2</ymin>
+			<xmax>726</xmax>
+			<ymax>449</ymax>
+		</bndbox>
+	</object>
+</annotation>
