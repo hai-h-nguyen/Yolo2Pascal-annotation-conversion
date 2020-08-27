@@ -4,8 +4,8 @@ Perform conversion between YOLO annotation format and PASCAL VOC format. Code ba
 
 ### Usage:
 - Images must be in .jpg format.
-- YOLO to PASCAL: The script will search for all `.txt` files in the folder and perform the conversion. Converted Pascal annotation files will have the same name and in the same directory.
-- PASCAL to YOLO: The script will search for all `.xml` files in the folder and perform the conversion. The script requires to have the file `class.txt` describing all classes (this file is generated autonomously if using the LabelImage tool above for annotating images).
+- YOLO to PASCAL: The script will search for all `.txt` files in the folder and perform the conversion. Converted PASCAL annotation files have a `.xml` extension, reside in the same folder and share the same name with their corresponding images.
+- PASCAL to YOLO: The script will search for all `.xml` files in the folder and perform the conversion. The script requires a file `class.txt` describing all classes (this file is generated autonomously if using the LabelImage tool above for annotating images). Converted YOLO annotation files have a `.txt` extension, reside in the same folder and share the same name with their corresponding images.
 ### Demo:
  - YOLO to PASCAL:
    - ```python3 yolo2pascal/yolo2voc.py demo/yolo2pascal```
