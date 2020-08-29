@@ -17,6 +17,8 @@ imgFolderPath = sys.argv[1]
 # Search all pascal annotation (xml files) in this folder
 for file in os.listdir(imgFolderPath):
     if file.endswith(".xml"):
+        print("Convert", file)
+        
         annotation_no_xml = os.path.splitext(file)[0]
 
         imagePath = imgFolderPath + "/" + annotation_no_xml + ".jpg"
