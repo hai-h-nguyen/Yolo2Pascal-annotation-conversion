@@ -1,6 +1,6 @@
 ### Yolo2Pascal-Annotation-Conversion
 
-Perform conversion between YOLO annotation format and PASCAL VOC format. Code based on [LabelImage](https://github.com/tzutalin/labelImg) repo. 
+Perform conversion between YOLO annotation format and PASCAL VOC format and vice versa. Code based on [LabelImage](https://github.com/tzutalin/labelImg) repo. 
 
 ### Usage:
 - Images must be in .jpg format.
