@@ -3,7 +3,7 @@
 Perform conversion between YOLO annotation format and PASCAL VOC format and vice versa. Code based on [LabelImage](https://github.com/tzutalin/labelImg) repo. 
 
 ### Usage:
-- Images must be in .jpg format.
+- Images must be in .jpg/.png format.
 - YOLO to PASCAL: The script will search for all `.txt` files in the folder and perform the conversion. Converted PASCAL annotation files have a `.xml` extension, reside in the same folder and share the same name with their corresponding images.
 - PASCAL to YOLO: The script will search for all `.xml` files in the folder and perform the conversion. The script requires a file `class.txt` describing all classes (this file is generated autonomously if using the LabelImage tool above for annotating images). Converted YOLO annotation files have a `.txt` extension, reside in the same folder and share the same name with their corresponding images.
 ### Demo:
@@ -18,5 +18,5 @@ Perform conversion between YOLO annotation format and PASCAL VOC format and vice
     - dog
 
 ### TODO:
-- [ ] Remove Qt dependency
+- [x] Remove Qt dependency (thanks [guysoft](https://github.com/guysoft/guysoft))
 - [ ] Add support for different image formats
