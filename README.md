@@ -18,5 +18,5 @@ Perform conversion between YOLO annotation format and PASCAL VOC format and vice
     - dog
 
 ### TODO:
-- [x] Remove Qt dependency (thanks [guysoft](https://github.com/guysoft/guysoft))
-- [ ] Add support for different image formats
+- [ ] Remove Qt dependency
+- [x] Add support for different image formats (thanks [guysoft](https://github.com/guysoft/guysoft))
