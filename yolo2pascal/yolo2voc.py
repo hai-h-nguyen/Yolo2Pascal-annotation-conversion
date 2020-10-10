@@ -20,8 +20,6 @@ for file in os.listdir(imgFolderPath):
         annotation_no_txt = os.path.splitext(file)[0]
 
         imagePath = imgFolderPath + "/" + annotation_no_txt + ".jpg"
-        if not os.path.isfile(imagePath):
-            imagePath = imgFolderPath + "/" + annotation_no_txt + ".png"
 
         image = QImage()
         image.load(imagePath)
