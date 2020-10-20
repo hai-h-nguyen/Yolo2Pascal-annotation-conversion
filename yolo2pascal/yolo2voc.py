@@ -19,7 +19,9 @@ for file in os.listdir(imgFolderPath):
 
         annotation_no_txt = os.path.splitext(file)[0]
 
-        imagePath = imgFolderPath + "/" + annotation_no_txt + ".jpg"
+        imagePath = os.path.join(imgFolderPath, annotation_no_txt + ".jpg")
+
+        print("Load this image:", imagePath)
 
         image = QImage()
         image.load(imagePath)

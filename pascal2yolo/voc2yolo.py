@@ -21,7 +21,9 @@ for file in os.listdir(imgFolderPath):
         
         annotation_no_xml = os.path.splitext(file)[0]
 
-        imagePath = imgFolderPath + "/" + annotation_no_xml + ".jpg"
+        imagePath = os.path.join(imgFolderPath, annotation_no_xml + ".jpg")
+
+        print("Image path:", imagePath)
 
         image = QImage()
         image.load(imagePath)
